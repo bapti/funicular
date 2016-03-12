@@ -1,12 +1,9 @@
 # react-cosmos
-Universal rendering library for react
+A very opinionated library for building a universal react app
 
+### My motivation
 
-
-
-### Motivation
-
-
+I haven't found a application framework for building a universal react app that I believe to be fully production ready with solid documentation and tools for speeding up developers working with the framework
 
 ### Existing libraries and starters
 
