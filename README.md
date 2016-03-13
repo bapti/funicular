@@ -2,6 +2,8 @@
 
 I'm writing all this  to get my thoughts clear before starting work on building a new framework. I've wanted to do an open source project for a while but I've struggled to find something that I really wanted to do that also fit with what I was doing at work. If I go ahead with this project I hope that I will gain expert level experience with the libraries I use and be able to build something people find useful and fun to use.
 
+[Todo list](./docs/todo.md)
+
 # React Cosmos
 A very opinionated framework for building a universal react app
 
