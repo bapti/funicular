@@ -35,6 +35,10 @@ As a stretch goal I'd like to build out an atom package that supports all the sa
 
 ### Execution
 
+##### Running locally
+
+Running locally will probably be under docker in some shape or form. I'm thinking that we should push for a docker deployment as standard and make it easy for people to put the application into production with the supplied dockerfiles. It'll be interesting to see how this plays out with hot reloading of the application when developers are making changes.
+
 ##### CI
 
 This needs really good CI and I'll probably look to using circle and their docker containers and do most of the development that way. It should make developing between Mac/Windows a bit less painful I hope. I will also look at drone.io which is also pretty interesting.
@@ -42,6 +46,10 @@ This needs really good CI and I'll probably look to using circle and their docke
 ##### Architecture patterns
 
 As must as is possible I'll try to write code in a pure functional way.  This really helps push side effects to the edges and adopting the plugin style of the hexagonal architecture should make it easier to swap in and out different components.  An example might be the http server say express instead of hapi.
+
+##### Experimentation
+
+Experimentation is so important in the modern public facing applications that I feel this should be tackled as a first class feature. Facebook have done some nice work on this with a framework called [planout](https://facebook.github.io/planout/). I intend to implement this as a standard shipping feature of the framework.
 
 ##### Testing
 
