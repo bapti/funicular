@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "name": "funicular-top",
+  "version": "0.0.1",
+  "dependencies": {
+    "lerna": "^1.1.2"
+  }
+}

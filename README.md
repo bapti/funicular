@@ -4,7 +4,7 @@ I'm writing all this  to get my thoughts clear before starting work on building 
 
 [Todo list](./docs/todo.md)
 
-# React Cosmos
+# Funicular
 A very opinionated framework for building a universal react app
 
 ### My motivation
