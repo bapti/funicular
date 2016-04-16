@@ -1,21 +1,22 @@
 ### To do tasks
 
 - [x] Front page mission statement for project
+- [x] Publish initial modules to NPM
 
-##### Framework
+#### CI / CD
 
-- [ ] Readme.md
-- [ ] CI Build
-- [ ] CI Tests
-- [ ] Publish module from CI
+- [ ] Docker?
+- [ ] Usher tasks
+- [ ] Drone ?
+- [ ] Tests across all libraries
 
-##### Command line interface
+#### Funicular Core
 
-- [ ] Readme.md
-- [ ] CI Build
-- [ ] CI Tests
-- [ ] Publish module from CI
+- [ ] Universal rendering
 
-##### Documentation
+#### Funicular cli
 
-- [ ] First page of docs
+- [ ] Initialise project
+- [ ] New component
+- [ ] Run development
+- [ ] Run production
