@@ -1,3 +1,8 @@
+# Funicular
+
+Building a universal React app is a bit of a mountain, funicular helps you get to the top
+
+#### Structure
 
 ```
 
