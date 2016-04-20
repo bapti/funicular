@@ -1,11 +1,20 @@
 {
   "name": "funicular-core",
   "version": "0.0.1",
-  "description": "",
+  "description": "Building a universal React app is a bit of a mountain, funicular helps you get to the top",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
   "author": "Neil Crawford",
-  "license": "ISC"
+  "license": "MIT",
+  "keywords": [
+    "funicular",
+    "react",
+    "isomorphic",
+    "universal"
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  }
 }
