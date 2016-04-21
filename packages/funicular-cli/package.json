@@ -1,11 +1,28 @@
 {
   "name": "funicular",
+  "description": "Command line interface for building funicular applications",
   "version": "0.0.1",
-  "description": "",
   "main": "index.js",
+  "keywords": [
+    "funicular",
+    "react",
+    "isomorphic",
+    "universal"
+  ],
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "cli": "node bin/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bapti/funicular.git"
+  },
+  "bin": {
+    "funicular": "./bin/index"
   },
   "author": "Neil Crawford",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "vorpal": "^1.10.10"
+  }
 }
