@@ -1,22 +1,34 @@
-### To do tasks
+### Epics
 
-- [x] Front page mission statement for project
-- [x] Publish initial modules to NPM
+- [ ] Core library
+- [ ] Continuous delivery
+- [ ] Command line application
 
-#### CI / CD
+#### Funicular Core
+
+- [ ] Router
+- [ ] ...?
+
+
+#### Funicular cli
+
+Leave the CLI for the moment until core has a basic working build
+
+- [ ] Initialise project
+- [ ] New component
+- [ ] Run development
+- [ ] Run production
+
+#### Continuous delivery
+
+Leave CD for the moment until you have a basic working build.
 
 - [ ] Docker?
 - [ ] Usher tasks
 - [ ] Drone ?
 - [ ] Tests across all libraries
 
-#### Funicular Core
+#### Done
 
-- [ ] Universal rendering
-
-#### Funicular cli
-
-- [ ] Initialise project
-- [ ] New component
-- [ ] Run development
-- [ ] Run production
+- [x] Front page mission statement for project
+- [x] Publish initial modules to NPM
