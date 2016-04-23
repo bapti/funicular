@@ -1,34 +1,21 @@
+#### Approach
+
+The approach I'm going to try and take is vertical slices to deliver one working chunk at a time across the core, cli and example-app
+
 ### Epics
 
-- [ ] Core library
-- [ ] Continuous delivery
-- [ ] Command line application
+- [ ] Initial bootstrap of project + server that reloads when files are changed
+- [ ] Add app with react, redux, routing + universal rendering
 
-#### Funicular Core
+#### Initial bootstrap of project + server that reloads when files are changed
 
-- [ ] Router
-- [ ] ...?
+- [x] 'New' command hooked up
+- [ ] Cli functionality to bootstrap an app
+- [ ] Simple server that returns `hi, welcome to funicular`
+- [ ] Server reloads when server file is changed
+- [ ] Full integration test under docker that tests the bootrap then runs and tests the server
 
-
-#### Funicular cli
-
-Leave the CLI for the moment until core has a basic working build
-
-- [ ] Initialise project
-- [ ] New component
-- [ ] Run development
-- [ ] Run production
-
-#### Continuous delivery
-
-Leave CD for the moment until you have a basic working build.
-
-- [ ] Docker?
-- [ ] Usher tasks
-- [ ] Drone ?
-- [ ] Tests across all libraries
-
-#### Done
+#### Done Epics
 
 - [x] Front page mission statement for project
-- [x] Publish initial modules to NPM
+- [x] Publish initial modules to NPM to bagsy name during inital development

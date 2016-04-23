@@ -1,0 +1,28 @@
+{
+  "name": "funicular-example-app",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Example usage of the funicular framework",
+  "scripts": {
+    "start": "fun production",
+    "test": "fun test",
+    "new": "fun new"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bapti/funicular.git"
+  },
+  "keywords": [
+    "Funicular"
+  ],
+  "author": "Neil Crawford <neil.crawford@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bapti/funicular/issues"
+  },
+  "homepage": "https://github.com/bapti/funicular#readme",
+  "dependencies": {
+    "funicular": "file:../packages/funicular-cli/",
+    "funicular-core": "file:../packages/funicular-core/"
+  }
+}

@@ -1,13 +1,16 @@
-const vorpal = require('vorpal')();
+const program = require('commander');
+const version = require('./../package.json').version;
+const chalk = require('chalk');
 
-vorpal
-  .command('foo')
-  .description('Outputs "bar".')
-  .action(function(args, callback) {
-    this.log('bar');
-    callback();
-  });
+program.version(version);
 
-vorpal
-  .delimiter('fun$')
-  .show();
+program
+  .command('new')
+  .description('Bootstrap a new Funicular project')
+  .action(require('./new'));
+
+program.parse(process.argv);
+
+if (!process.argv.slice(2).length) {
+  program.outputHelp(chalk.cyan);
+}
