@@ -11,7 +11,7 @@
   "scripts": {
     "test": "mocha --recursive",
     "cli": "node ./bin/index",
-    "cli-new": "node ./bin/index fun new"
+    "cli-new": "node ./bin/index new"
   },
   "repository": {
     "type": "git",
